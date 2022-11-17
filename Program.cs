@@ -58,7 +58,7 @@ Console.WriteLine($"Максимальное число {max}");
 7 -> нет
 */
 
-Console.WriteLine("Введите число");
+/*Console.WriteLine("Введите число");
 int N = Convert.ToInt32(Console.ReadLine());
  
  if (N % 2 == 0)
@@ -70,4 +70,22 @@ int N = Convert.ToInt32(Console.ReadLine());
  {
     Console.WriteLine($"{N} Нечётное число");
  }
+*/
 
+/*Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+5 -> 2, 4
+8 -> 2, 4, 6, 8
+*/
+
+Console.WriteLine("Введите число N");
+int N = Convert.ToInt32(Console.ReadLine());
+int H = 1;
+while (H<=N)
+{
+if(H%2 == 0)
+{
+ Console.WriteLine($"{H}");
+}
+H++;
+}
